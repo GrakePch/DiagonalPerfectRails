@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_powered_rail_flat",
+  "textures": {
+    "rail": "minecraft:block/powered_rail_on"
+  }
+}
