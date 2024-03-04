@@ -1,0 +1,3874 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 0
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_1"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_1"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_1"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_1",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_1",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 1
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_1",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 2
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_2",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 3
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_3",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 4
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_4",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 5
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_5",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 6
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_6",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 7
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_7",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 8
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_8",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 9
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_9",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 10
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_10",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 11
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_11",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 12
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_12",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 13
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_13",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 14
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_14",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "north_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15"
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "north_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "east_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "east_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_north_south_on_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_north",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15"
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_east",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "false",
+        "shape": "ascending_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_north",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_south",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_east",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_north_on_15",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "backwards": "true",
+        "shape": "ascending_west",
+        "power": 15
+      },
+      "apply": {
+        "model": "create:block/controller_rail/block_ascending_south_on_15",
+        "y": 90
+      }
+    }
+  ]
+}

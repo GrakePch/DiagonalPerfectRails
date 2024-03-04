@@ -1,0 +1,6 @@
+{
+  "parent": "create:block/controller_rail/block_ascending_south",
+  "textures": {
+    "rail": "create:block/controller_rail_powered_3"
+  }
+}
