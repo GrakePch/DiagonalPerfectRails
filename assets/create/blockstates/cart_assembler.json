@@ -1,0 +1,129 @@
+{
+  "multipart": [
+    {
+      "when" : { "shape": "north_south", "backwards": "false", "powered": "false" },
+      "apply": { "model": "create:block/cart_assembler/frame" }
+    },
+    {
+      "when" : { "shape": "north_south", "backwards": "false", "powered": "true"  },
+      "apply": { "model": "create:block/cart_assembler/frame_on" }
+    },
+    {
+      "when" : { "shape": "north_south", "backwards": "true" , "powered": "false" },
+      "apply": { "model": "create:block/cart_assembler/frame"   , "y": 180 }
+    },
+    {
+      "when" : { "shape": "north_south", "backwards": "true" , "powered": "true"  },
+      "apply": { "model": "create:block/cart_assembler/frame_on", "y": 180 }
+    },
+    {
+      "when" : { "shape": "east_west",   "backwards": "false", "powered": "false" },
+      "apply": { "model": "create:block/cart_assembler/frame"   , "y": 270 }
+    },
+    {
+      "when" : { "shape": "east_west",   "backwards": "false", "powered": "true"  },
+      "apply": { "model": "create:block/cart_assembler/frame_on", "y": 270 }
+    },
+    {
+      "when" : { "shape": "east_west",   "backwards": "true" , "powered": "false" },
+      "apply": { "model": "create:block/cart_assembler/frame"   , "y": 90 }
+    },
+    {
+      "when" : { "shape": "east_west",   "backwards": "true" , "powered": "true"  },
+      "apply": { "model": "create:block/cart_assembler/frame_on", "y": 90 }
+    },
+
+    {
+      "when" : { "rail_type": "regular", "shape": "north_south" },
+      "apply": { "model": "minecraft:block/rail" }
+    },
+    {
+      "when" : { "rail_type": "regular", "shape": "east_west"   },
+      "apply": { "model": "minecraft:block/rail", "y": 90 }
+    },
+
+    {
+      "when" : { "rail_type": "powered_rail", "shape": "north_south", "powered": "false" },
+      "apply": { "model": "minecraft:block/disconnected/powered_rail" }
+    },
+    {
+      "when" : { "rail_type": "powered_rail", "shape": "north_south", "powered": "true"  },
+      "apply": { "model": "minecraft:block/disconnected/powered_rail_on" }
+    },
+    {
+      "when" : { "rail_type": "powered_rail", "shape": "east_west"  , "powered": "false" },
+      "apply": { "model": "minecraft:block/disconnected/powered_rail"   , "y": 90 }
+    },
+    {
+      "when" : { "rail_type": "powered_rail", "shape": "east_west"  , "powered": "true" },
+      "apply": { "model": "minecraft:block/disconnected/powered_rail_on", "y": 90 }
+    },
+
+    {
+      "when" : { "rail_type": "activator_rail", "shape": "north_south", "powered": "false" },
+      "apply": { "model": "minecraft:block/disconnected/activator_rail" }
+    },
+    {
+      "when" : { "rail_type": "activator_rail", "shape": "north_south", "powered": "true"  },
+      "apply": { "model": "minecraft:block/disconnected/activator_rail_on_noramp" }
+    },
+    {
+      "when" : { "rail_type": "activator_rail", "shape": "east_west"  , "powered": "false" },
+      "apply": { "model": "minecraft:block/disconnected/activator_rail"   , "y": 90 }
+    },
+    {
+      "when" : { "rail_type": "activator_rail", "shape": "east_west"  , "powered": "true" },
+      "apply": { "model": "minecraft:block/disconnected/activator_rail_on_noramp", "y": 90 }
+    },
+
+    {
+      "when" : { "rail_type": "detector_rail", "shape": "north_south", "powered": "false" },
+      "apply": { "model": "minecraft:block/detector_rail" }
+    },
+    {
+      "when" : { "rail_type": "detector_rail", "shape": "north_south", "powered": "true"  },
+      "apply": { "model": "minecraft:block/detector_rail_on" }
+    },
+    {
+      "when" : { "rail_type": "detector_rail", "shape": "east_west"  , "powered": "false" },
+      "apply": { "model": "minecraft:block/detector_rail"   , "y": 90 }
+    },
+    {
+      "when" : { "rail_type": "detector_rail", "shape": "east_west"  , "powered": "true" },
+      "apply": { "model": "minecraft:block/detector_rail_on", "y": 90 }
+    },
+
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "north_south", "backwards": "false", "powered": "false" },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south" }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "north_south", "backwards": "false", "powered": "true"  },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south_on_15" }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "north_south", "backwards": "true" , "powered": "false" },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south"      , "y": 180 }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "north_south", "backwards": "true" , "powered": "true"  },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south_on_15", "y": 180 }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "east_west"  , "backwards": "false", "powered": "false" },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south"      , "y": 270 }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "east_west"  , "backwards": "false", "powered": "true" },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south_on_15", "y": 270 }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "east_west"  , "backwards": "true" , "powered": "false" },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south"      , "y": 90 }
+    },
+    {
+      "when" : { "rail_type": "controller_rail", "shape": "east_west"  , "backwards": "true" , "powered": "true" },
+      "apply": { "model": "create:block/controller_rail/disconnected/block_north_south_on_15", "y": 90 }
+    }
+  ]
+}
