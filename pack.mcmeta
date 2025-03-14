@@ -1,6 +1,7 @@
 {
   "pack": {
     "pack_format": 15,
-    "description": "§7Diagonal Perfect Rails§r\n§8JE 1.20-1.20.1§r by GrakePCH"
+    "supported_formats": { "min_inclusive": 15, "max_inclusive": 999 },
+    "description": "§7Diagonal Perfect Rails§r\n§8JE 1.20+§r by GrakePCH"
   }
 }

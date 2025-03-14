@@ -1,0 +1,1 @@
+7z a -tzip "DiagonalPerfectRails2.0.zip" "assets" "pack.mcmeta" "pack.png" "LICENSE" "README.md"
